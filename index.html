@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oyama Fashion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+    .section {
+      padding: 3rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      background: #222;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .product-content {
+      padding: 1rem;
+    }
+    .product-content h3 {
+      margin-top: 0;
+    }
+    footer {
+      background: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Oyama Fashion</h1>
+    <p>Elegan Setiap Langkah, Bukan Asal Murah</p>
+    <a href="#katalog" class="btn">Lihat Katalog</a>
+    <a href="https://wa.me/6285189309990" class="btn">Order via WhatsApp</a>
+  </header>
+
+  <section class="section" id="tentang">
+    <h2>Tentang Oyama Fashion</h2>
+    <p>
+      Oyama Fashion adalah merek fashion perempuan yang berkomitmen menghadirkan pakaian elegan dengan kualitas terbaik. Kami percaya, setiap perempuan berhak tampil percaya diri — tidak sekadar murah, tapi berkelas. Filosofi kami sederhana: Elegan.
+    </p>
+  </section>
+
+  <section class="section" id="katalog">
+    <h2>Katalog Produk</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x400.png?text=Setelan+Renang+Muslimah" alt="Setelan Renang Muslimah">
+        <div class="product-content">
+          <h3>Setelan Renang Muslimah</h3>
+          <p>Rp150.000</p>
+          <p>Ukuran: S – XXXL & Big Size<br>Warna: Black, Grey, Lavender, Lime, Salmon<br>Bahan: Poly Spandex (60% nylon, 40% spandek)</p>
+          <a href="https://wa.me/6285189309990" class="btn">Order via WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Oyama Fashion | WhatsApp: <a href="https://wa.me/6285189309990" style="color:#fff; text-decoration: underline;">Klik di sini</a></p>
+  </footer>
+</body>
+</html>
